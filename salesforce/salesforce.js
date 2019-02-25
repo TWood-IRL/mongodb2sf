@@ -1,7 +1,6 @@
 //Setup connection for salesforce 
 var sf = require('node-salesforce');
-var username = "twoodhouse2@unum.com.angels"; 
-var password = "TomTom1012@VBWGCIal2XpqFhwfbjHaDEjV8" ; 
+
 const dotenv = require('dotenv'); 
 const config = dotenv.config() ;
 
