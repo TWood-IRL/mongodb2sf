@@ -4,7 +4,6 @@ const { prompt } = require('inquirer');
 var colors = require('colors');
 const inquirer =  require('inquirer');
 const consoleApp =  require('inquirer');
-const dotenv = require('dotenv').config()
 
 
 const {
