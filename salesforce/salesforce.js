@@ -3,7 +3,8 @@ var sf = require('node-salesforce');
 
 const dotenv = require('dotenv'); 
 const config = dotenv.config() ;
-
+var username = config.SF_USERNAME; 
+var password = config.SF_PASSWORD  ; 
 var salesforceConnection = new sf.Connection({
     oauth2 : {
       loginUrl : config.SF_CONNECTIONURL,
