@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Quote = require('./models/quote');
 const productQuote = require('./models/productQuote');
-const sf = require("./unum/salesforce") ; 
+const sf = require("./salesforce/salesforce") ; 
 
 // Map global promise - get rid of warning
 mongoose.Promise = global.Promise;
